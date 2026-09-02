@@ -13,7 +13,7 @@ if peso > 0 and altura > 0:
 
     if imc >= 18.5 and imc < 25:
         st.write('Você está no peso ideal.')
-    elif imc >= 25 and imc < 30:
+    elif imc >= 25:
         st.write('Você está na acima do peso.')
     else:
         st.write('Você está abaixo do peso.')
